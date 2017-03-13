@@ -15,6 +15,10 @@ Datasets from LibGuides LTI Instance Details contain the following information:
 * LastLaunch
 * LaunchCount
 
+| ID    | Type | CourseID                | CourseName                                   | Guide                                  | Created | LastLaunch | LaunchCount |
+| ----- | ---- | ----------------------- | -------------------------------------------- | -------------------------------------- | ------- | ---------- | ----------- |
+| 35987 | Auto | FA16-IN-AFRO-A140-23993 | FA16: INTR: AFR AMER&AFRI DIASP STUDY: 23993 | Guide: Africana Studies Research Guide | 8/31/16 | 12/5/16    | 6           |
+
 In order to see what types of guides were mostly used, the guide types (Subject, Course, Generic, and LTI Default) should be added along with department and school information. In addition, courses like medicine, law, and dentistry which were covered by their libraries should be removed.
 
 #### Installation
