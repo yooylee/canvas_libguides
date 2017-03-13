@@ -40,8 +40,11 @@ After data manipulation, you will have the following fields:
 * Department
 
 | ID    | Type | CourseID                | CourseName                                   | Guide                                  | Created | LastLaunch | LaunchCount | guide_type | School       | Department            |
-| ----- | ---- | ----------------------- | -------------------------------------------- | -------------------------------------- | ------- | ---------- | ----------- | ---------- | -----------  | --------------------- | 
+| ----- | ---- | ----------------------- | -------------------------------------------- | -------------------------------------- | ------- | ---------- | ----------- | ---------- | -----------  | --------------------- |
 | 35987 | Auto | FA16-IN-AFRO-A140-23993 | FA16: INTR: AFR AMER&AFRI DIASP STUDY: 23993 | Guide: Africana Studies Research Guide | 8/31/16 | 12/5/16    | 6           | Subject    | Liberal Arts | Afro-American Studies |
+
+#### R Script
+[LTI_Datasets_Manipulation.R](../canvas_libguides/tree/master/R/LTI_Datasets_Manipulation.R)
 
 ### 2. Datasets from Canvas
 ---------------------------
