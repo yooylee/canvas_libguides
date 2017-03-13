@@ -1,9 +1,13 @@
 # canvas_libguides
 
-## 1. Datasets from LibGuides LTI Instance Details
+In order to better understand usage of embedded library guides in Canvas, R is applied for data manipulation (like removed unnecessary courses using Department Code), data merge, and visualization.
 
-## 2. Datasets from Canvas
+### 1. Datasets from LibGuides LTI Instance Details
 
-## 3. Combine Two Datasets
 
-## 4. Data Visualization
+
+### 2. Datasets from Canvas
+
+### 3. Combine Two Datasets
+
+### 4. Data Visualization
