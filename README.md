@@ -4,7 +4,6 @@
 In order to better understand usage of embedded library guides in Canvas for the 2016 fall semester, R is applied for data manipulation (like removed unnecessary courses using Department Code), data merge, and visualization.
 
 ### 1. Datasets from LibGuides LTI Instance Details
----------------------------------------------------
 
 Datasets from LibGuides LTI Instance Details contain the following information:
 * ID
@@ -21,7 +20,7 @@ In order to see what types of guides were mostly used, the guide types (Subject,
 #### Installation
 
 ``` r
-# Install dplyr package to use `filter()` function
+# Install dplyr package to use filter() function
 install.packages("dplyr")
 ```
 
