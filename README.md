@@ -43,11 +43,48 @@ After data manipulation, you will have the following fields:
 | ----- | ---- | ----------------------- | -------------------------------------------- | -------------------------------------- | ------- | ---------- | ----------- | ---------- | -----------  | --------------------- |
 | 35987 | Auto | FA16-IN-AFRO-A140-23993 | FA16: INTR: AFR AMER&AFRI DIASP STUDY: 23993 | Guide: Africana Studies Research Guide | 8/31/16 | 12/5/16    | 6           | Subject    | Liberal Arts | Afro-American Studies |
 
+Total records: 2422 course records
+
 #### R Script
-[LTI_Datasets_Manipulation.R](https://github.com/yooylee/canvas_libguides/blob/master/R/LTI_Datasets_Manipulation.R)
+[LTI_Datasets_Manipulation.R](R/LTI_Datasets_Manipulation.R)
 
 ### 2. Datasets from Canvas
 ---------------------------
+
+Datasets from Canvas contain the following information:
+* CANVAS_COURSE_ID
+* SIS_COURSE_ID: same as CourseID in the datasets from LibGuides LTI Instance Details
+* Tool Name: Library Research Guide
+* Visibility: if public - not hidden from the menu while "admins" means hidden
+
+| CANVAS_COURSE_ID | SIS_COURSE_ID           | Tool Name              | Visibility |
+| 1573104          | FA16-IN-AFRO-A140-23993 | Library Research Guide | public     |
+
+These datasets contain information like which course hid the "Library Research Guide" tab as well as 0 usage. In order to merge these datasets to the first datasets, the datasets from Canvas should need to be massaged.
+
+#### Installation
+``` r
+# Install xlsx package to load data in .xlsx format from Canvas administrator
+install.packages("xlsx")
+```
+
+1. Remove unnecessary courses using `filter()` from `dplyr` like above
+2. Remove unnecessary fields using `select()` from `dplyr` or `subset()` like CANVAS_COURSE_ID and Tool Name
+3. Change the header name to match with datasets from LibGuides LTI Instance Details
+4. Add school and department information using `grepl()` like above
+
+After data manipulation, you will have like this:
+
+| CourseID                | Visibility | School       | Department            |
+| FA16-IN-AFRO-A140-23993 | public     | Liberal Arts | Afro-American Studies |
+
+Total records: 4150 course records
+
+#### Why are the numbers different between LibGuides datasets and Canvas datasets?
+The datasets from LibGuides provide information only when there is at least 1 click or usage. If the tab is hidden or nobody clicks, it is not provided.
+
+#### R Script
+[Canvas_Datasets_Manipulation.R](R/Canvas_Datasets_Manipulation.R)
 
 ### 3. Combine Two Datasets
 ---------------------------
