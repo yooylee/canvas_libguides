@@ -58,6 +58,7 @@ Datasets from Canvas contain the following information:
 * Visibility: if public - not hidden from the menu while "admins" means hidden
 
 | CANVAS_COURSE_ID | SIS_COURSE_ID           | Tool Name              | Visibility |
+| ---------------- | ----------------------- | ---------------------- | ---------- |
 | 1573104          | FA16-IN-AFRO-A140-23993 | Library Research Guide | public     |
 
 These datasets contain information like which course hid the "Library Research Guide" tab as well as 0 usage. In order to merge these datasets to the first datasets, the datasets from Canvas should need to be massaged.
@@ -76,6 +77,7 @@ install.packages("xlsx")
 After data manipulation, you will have like this:
 
 | CourseID                | Visibility | School       | Department            |
+| ----------------------- | ---------- | ------------ | --------------------- |
 | FA16-IN-AFRO-A140-23993 | public     | Liberal Arts | Afro-American Studies |
 
 Total records: 4150 course records
