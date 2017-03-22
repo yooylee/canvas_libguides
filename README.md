@@ -91,5 +91,19 @@ The datasets from LibGuides provide information only when there is at least 1 cl
 ### 3. Combine Two Datasets
 ---------------------------
 
+Using `merge()`, the Canvas and LibGuides datasets will be merged horizontally into one dataset. Both datasets have 'CourseID', 'School', and 'Department' in common, so these are used as a key variable.
+
+Total records: 4161 course records
+
+#### Why not 4150 records?
+Because there are 11 courses where they have both automatic and manual setup settings.
+
+If you want to know more about merging datasets, please check out [this website](https://rstudio-pubs-static.s3.amazonaws.com/52230_5ae0d25125b544caab32f75f0360e775.html).
+
+Then, zero will be added in the 'LaunchCount' for the records which exist in the Canvas dataset but not in the LibGuides as LibGuides provides datasets only when at least it is clicked.
+
+#### R Script
+[Combined_Datasets.R](R/Combined_Datasets.R)
+
 ### 4. Data Visualization
 ---------------------------
