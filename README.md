@@ -116,8 +116,7 @@ The package 'ggplot2' is applied to visualize datasets. This package is widely u
 install.packages("ggplot2")
 ```
 #### Q. How many times clicked? (Bar graph)
-![Click Ranges]
-(https://github.com/yooylee/canvas_libguides/img/ClickRanges.png)
+![Click Ranges](img/ClickRanges.png)
 
 
 #### Pie Chart
