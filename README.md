@@ -117,7 +117,7 @@ install.packages("ggplot2")
 ```
 #### Q. How many times clicked? (Bar graph)
 ![Click Ranges]
-(img/ClickRanges.png)
+(https://github.com/yooylee/canvas_libguides/img/ClickRanges.png)
 
 
 #### Pie Chart
