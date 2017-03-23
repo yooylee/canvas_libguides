@@ -107,3 +107,17 @@ Then, zero will be added in the 'LaunchCount' for the records which exist in the
 
 ### 4. Data Visualization
 ---------------------------
+The package 'ggplot2' is applied to visualize datasets. This package is widely used and one of the most powerful data visualization tools in R. If you want to know more about it, please visit [this website](https://cran.r-project.org/web/packages/ggplot2/ggplot2.pdf).
+
+#### Installation
+
+``` r
+# Install ggplot2 package to use filter() function
+install.packages("ggplot2")
+```
+#### Q. How many times clicked? (Bar graph)
+![Click Ranges]
+(img/ClickRanges.png)
+
+
+#### Pie Chart
