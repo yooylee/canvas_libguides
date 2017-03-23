@@ -130,7 +130,7 @@ install.packages("ggplot2")
 In order to better understand how students used the embedded guides in Canvas, courses whose usage was 0 was removed. In addition, there was no information provided on types of guides. The goal here was to identify what types of guides (generic research guide vs. subject guide vs. course guide) were mostly used.
 
 #### Q. Percentage of guide types embedded
-![Guide Type](img/GuideTypes.png)
+![Guide Type](img/Pie_GuideTypes.png)
 
 #### Q. Average usage by guide types
 ![Average Usage](img/Bar_Overview_only_UL.png)
@@ -139,9 +139,9 @@ In order to better understand how students used the embedded guides in Canvas, c
 ![Guide Type: Most Used Guides](img/Pie_GuideTypes_MostUsedGuides.png)
 
 #### Q. Average usage by school
-![Average usage by school](img/Bar_AverageUsage_School)
+![Average usage by school](img/Bar_AverageUsage_School.png)
 
 #### Q. Agerage usage by department
-![Average usage by department](img/Bar_AverageUsage_Department)
+![Average usage by department](img/Bar_AverageUsage_Department.png)
 
 #### R Script
