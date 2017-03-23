@@ -118,5 +118,30 @@ install.packages("ggplot2")
 #### Q. How many times clicked? (Bar graph)
 ![Click Ranges](img/ClickRanges.png)
 
+#### Q. Percentage of never clicked (Pie chart)
+![Percentage of never clicked](img/PieChart_NeverClickedPercentage.png)
 
-#### Pie Chart
+#### Q. Percentage of library resource tab hidden by instructors
+![Percentage of library resource tab hidden](img/Pie_TabHiddenPercentage.png)
+
+#### Q. Setup type (Automatic or Manual)
+![setup type - automatic vs. manual](img/PieChart_SetUpTypes.png)
+
+In order to better understand how students used the embedded guides in Canvas, courses whose usage was 0 was removed. In addition, there was no information provided on types of guides. The goal here was to identify what types of guides (generic research guide vs. subject guide vs. course guide) were mostly used.
+
+#### Q. Percentage of guide types embedded
+![Guide Type](img/GuideTypes.png)
+
+#### Q. Average usage by guide types
+![Average Usage](img/Bar_Overview_only_UL.png)
+
+#### Q. Guide types among most used ones (condition: LaunchCount>100)
+![Guide Type: Most Used Guides](img/Pie_GuideTypes_MostUsedGuides.png)
+
+#### Q. Average usage by school
+![Average usage by school](img/Bar_AverageUsage_School)
+
+#### Q. Agerage usage by department
+![Average usage by department](img/Bar_AverageUsage_Department)
+
+#### R Script
